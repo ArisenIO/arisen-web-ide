@@ -1,6 +1,6 @@
 #include <boost/test/included/unit_test.hpp>
 #include <boost/test/unit_test.hpp>
-#include <eosio/chain/exceptions.hpp>
+#include <arisen/chain/exceptions.hpp>
 #include <fc/log/logger.hpp>
 #include <iostream>
 

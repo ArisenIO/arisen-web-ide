@@ -1,4 +1,4 @@
-image: eosio/eosio-web-ide:v0.1.0
+image: arisen/arisen-web-ide:v0.1.0
 
 ports:
 - port: 3000
@@ -17,4 +17,4 @@ tasks:
   init: yarn
   command: nginx -c $PWD/nginx.conf; npx webpack-dev-server
 - before: cleos wallet unlock --password </password
-  command: nodeos --config-dir ~/eosio/chain/config --data-dir ~/eosio/chain/data -e -p eosio --plugin eosio::chain_api_plugin --contracts-console
+  command: nodeos --config-dir ~/arisen/chain/config --data-dir ~/arisen/chain/data -e -p arisen --plugin arisen::chain_api_plugin --contracts-console

@@ -1,12 +1,12 @@
 #include <boost/test/unit_test.hpp>
-#include <eosio/chain/abi_serializer.hpp>
-#include <eosio/chain/permission_object.hpp>
-#include <eosio/chain/resource_limits.hpp>
-#include <eosio/testing/tester.hpp>
+#include <arisen/chain/abi_serializer.hpp>
+#include <arisen/chain/permission_object.hpp>
+#include <arisen/chain/resource_limits.hpp>
+#include <arisen/testing/tester.hpp>
 
-using namespace eosio;
-using namespace eosio::chain;
-using namespace eosio::testing;
+using namespace arisen;
+using namespace arisen::chain;
+using namespace arisen::testing;
 using namespace fc;
 
 BOOST_AUTO_TEST_SUITE(talk_tests)
